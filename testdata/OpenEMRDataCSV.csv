@@ -1,0 +1,4 @@
+${username};${password};${language};${expectedvalue};
+admin1;pass;English (Indian);OpenEMR;
+physician1;physician;English (Indian);OpenEMR;
+accountant1;accountant;English (Indian);OpenEMR;
