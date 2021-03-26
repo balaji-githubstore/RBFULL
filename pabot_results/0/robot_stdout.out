@@ -1,0 +1,23 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Invalid Credential Csv Tests :: This file test the invalid credentai...
+==============================================================================
+Invalid_Credential_CSV_Test_admin1_pass                               | FAIL |
+Element '//*[contains(text(),'Invalid')]' should have contained text 'OpenEMR' but its text was 'Invalid username or password'.
+------------------------------------------------------------------------------
+Invalid_Credential_CSV_Test_physician1_physician                      | FAIL |
+Element '//*[contains(text(),'Invalid')]' should have contained text 'OpenEMR' but its text was 'Invalid username or password'.
+------------------------------------------------------------------------------
+Invalid_Credential_CSV_Test_accountant1_accountant                    | FAIL |
+Element '//*[contains(text(),'Invalid')]' should have contained text 'OpenEMR' but its text was 'Invalid username or password'.
+------------------------------------------------------------------------------
+Suites.Invalid Credential Csv Tests :: This file test the invalid ... | FAIL |
+3 critical tests, 0 passed, 3 failed
+3 tests total, 0 passed, 3 failed
+==============================================================================
+Suites                                                                | FAIL |
+3 critical tests, 0 passed, 3 failed
+3 tests total, 0 passed, 3 failed
+==============================================================================
+Output:  D:\B-Mine\Company\Company\Ericsson\robot_workpace\OpenEmr_Test\pabot_results\0\output.xml

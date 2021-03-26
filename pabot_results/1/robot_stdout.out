@@ -1,0 +1,20 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Invalid Credential Tests :: This file test the invalid credentail er...
+==============================================================================
+Invalid_Credential_Test_admin12_pass1                                 | PASS |
+------------------------------------------------------------------------------
+Invalid_Credential_Test_bala12_pass2                                  | PASS |
+------------------------------------------------------------------------------
+Invalid_Credential_Test_john12_pass3                                  | PASS |
+------------------------------------------------------------------------------
+Suites.Invalid Credential Tests :: This file test the invalid cred... | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+3 critical tests, 3 passed, 0 failed
+3 tests total, 3 passed, 0 failed
+==============================================================================
+Output:  D:\B-Mine\Company\Company\Ericsson\robot_workpace\OpenEmr_Test\pabot_results\1\output.xml

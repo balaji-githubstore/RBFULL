@@ -1,0 +1,1 @@
+START pabot --processes 5 -v BROWSER:ff -v REMOTEURL:"http://192.168.137.1:43048/wd/hub" LoginSuite\valid_credential_tests.robot

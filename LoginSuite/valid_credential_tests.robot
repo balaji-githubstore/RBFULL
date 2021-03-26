@@ -13,8 +13,8 @@ Test Template    Valid_Credential_Template
 
 *** Test Cases ***
 TC1    admin    pass    English (Indian)    Flow Board
-TC2    physician    physician    English (Indian)    Flow Board
-TC3    accountant    accountant    English (Indian)    Flow Board
+# TC2    physician    physician    English (Indian)    Flow Board
+# TC3    accountant    accountant    English (Indian)    Flow Board
     
 *** Keywords ***
 Valid_Credential_Template   
