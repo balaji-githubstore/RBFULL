@@ -16,6 +16,7 @@ Invalid_Credential_Test_${username}_${password}
 Invalid_Credential_Template
     [Arguments]    ${username}    ${password}    ${language}    ${expectedvalue}
     [Tags]    OP-83
+    Set Tags    OP_83
     Enter_Username    ${username}   
     Enter_Password    ${password}   
     Select_Language_Using_Label      ${language}          
