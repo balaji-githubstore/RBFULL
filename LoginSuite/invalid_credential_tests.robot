@@ -17,10 +17,11 @@ Invalid_Credential_Test_${username}_${password}
 *** Keywords ***
 Invalid_Credential_Template
     [Tags]    OP-83
+    Set Tags    OP-83
     [Arguments]    ${username}    ${password}    ${language}    ${expectedvalue}
     Enter_Username    ${username}   
     Enter_Password    ${password}   
     Select_Language_Using_Label      ${language}          
     Click_Login  
-    Validate_Error_Message    ${expectedvalue}
+    Validate_Error_Message    ${expectedvalue}   
     [Teardown]    End_Browser
