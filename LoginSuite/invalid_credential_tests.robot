@@ -9,7 +9,6 @@ Test Setup    Launch_Browser
 # Test Teardown    End_Browser
 Test Template    Invalid_Credential_Template
 
-Default Tags    OP-83
 
 *** Test Cases ***
 Invalid_Credential_Test_${username}_${password}
@@ -17,6 +16,7 @@ Invalid_Credential_Test_${username}_${password}
 *** Keywords ***
 Invalid_Credential_Template
     [Arguments]    ${username}    ${password}    ${language}    ${expectedvalue}
+    [Tags]    OP-83
     Enter_Username    ${username}   
     Enter_Password    ${password}   
     Select_Language_Using_Label      ${language}          
